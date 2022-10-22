@@ -33,7 +33,7 @@ public class Menu {
         double mediaTemperaturaTransformada = calculos.calculaMedia(temperaturasTransformadas);
 
         //incializa a classe SaidaDados
-        //mostra a conversão de temepratura
+        //mostra a conversão de temperatura
         //mostra as médias
         SaidaDados saidaDados = new SaidaDados();
         saidaDados.mostrarTemperaturas(temperaturasOrigem, tipoTemperaturaOrigem, temperaturasTransformadas, tipoTemperaturaTransformada);

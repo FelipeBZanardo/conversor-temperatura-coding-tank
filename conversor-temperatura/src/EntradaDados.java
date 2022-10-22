@@ -8,7 +8,6 @@ public class EntradaDados {
      * O método obterQuantidadeTemperaturas pergunta ao usuário a quantidade
      * de temperaturas que deseja converter
      *
-     *
      * O método obterTemperaturas recebe como parâmetro a quantidade recebida pelo método anterior,
      * obtém as temperaturas digitadas pelo usuário e retorna um array de Strings com as mesmas.
      *
@@ -92,6 +91,7 @@ public class EntradaDados {
         for (int i = 0; i < temperaturas.length; i++){
             try {
                 Scanner scanner = new Scanner(System.in);
+                System.out.println();
                 System.out.print("Temperatura " + (i + 1) + " °" + tipoTemperatura + ": ");
                 temperaturas[i] = scanner.nextDouble();
             } catch (InputMismatchException exception) {
